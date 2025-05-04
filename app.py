@@ -2,13 +2,13 @@ from itertools import cycle
 
 import streamlit as st
 
-MIN_SERVINGS = 1
+MIN_SERVINGS = 2
 MAX_SERVINGS = 4
 MAX_COLS = 4
 
 st.title("Food Servings Calculator")
 
-servings_n = st.slider("Number of servings?", MIN_SERVINGS, MAX_SERVINGS, 2)
+servings_n = st.number_input("Number of servings?", MIN_SERVINGS, MAX_SERVINGS, 2)
 cols_n = min(servings_n, MAX_COLS)
 
 servings_raw_grams = []
