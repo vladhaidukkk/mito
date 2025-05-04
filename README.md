@@ -4,4 +4,4 @@ Mito (derived from "**Me** au**to**") is my personal automation assistant design
 
 ## Automated Tasks
 
-- [ ] **Food portion calculator** - Calculate raw-to-cooked food ratios for multiple servings with different portion sizes.
+- [x] **Food Servings Calculator** - Calculate raw-to-cooked food ratios for multiple servings with different portion sizes.
